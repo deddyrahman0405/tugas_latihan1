@@ -49,4 +49,11 @@ int main(){
 		}
 	}
 
+// PENJUMLAHAN HASIL R * W
+	for(x=0; x<3; x++) {
+		for(y=0; y<5; y++) {
+			arrayH[x] += matrixRxW[x][y];
+		}
+	}
+
 
