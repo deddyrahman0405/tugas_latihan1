@@ -25,5 +25,9 @@ int main(){
 					{5,4,2,2,2}
 			};
 
+// SETTING PRESISI DESIMAL
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(4);
 
 
