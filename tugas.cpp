@@ -55,5 +55,9 @@ int main(){
 			arrayH[x] += matrixRxW[x][y];
 		}
 	}
+	
+// MENAMPILKAN NILAI
+	cout << "MATRIKS X :" << endl;
+	tampilMatrix3x5(array);
 
 
